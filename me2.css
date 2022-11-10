@@ -1,0 +1,842 @@
+/*CSS for website*/
+/*CSS for home page*/
+
+/*CSS for header*/
+.header {
+    padding: 2px; /* Some padding */
+    text-align: center; /* Centered text */
+    background: url("cmmm8.png"); /* Background image */
+    color:rgb(255, 255, 255); /* White font colour */
+    font-size: 30px; /* Font size*/
+    font-family:Georgia, "Georgia", 'Times New Roman', Times, serif; /* Font type */
+    
+}
+
+
+.headingClass {
+    background-color: #333; /* Dark background color */
+    text-align: left; /* Centered text */
+    color:rgb(255, 255, 255); /* White text */
+    
+
+}
+
+.headingClass1 {
+    text-align: center; /* Centered text */
+    color:rgb(255, 255, 255); /* White text */
+    font-size: 40px; /* font size */
+    margin-top: -10px; /* alignment of header */
+
+}
+
+  
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.leftt {
+    flex: 10%; /* Set the width of the sidebar */
+    background-color: rgb(150, 56, 33); /* Red background color */
+    padding: 20px; /* Some padding */
+
+}
+
+.rightt {
+    flex: 10%; /* Set the width of the main content */
+    background-color:rgb(150, 56, 33); /* Black background color */
+    padding: 20px; /* Some padding */
+    text-align: center; /* Align text to centre */
+    color: rgb(197, 195, 195); /* White font colour */
+}
+
+.roww {
+    display: flex; /* how the column is formed */
+    flex-wrap: wrap; /* how the column is formed  */
+}
+
+.feedback {
+    background-color: rgb(150, 56, 33);
+    color: white;
+    text-align: center;
+    margin-left: -35px;
+}
+
+/*this targets the entire body*/
+body {
+    background-color: rgb(0, 0, 0); /* Black background color */
+}
+
+
+/* Ensure proper sizing */
+* {
+    box-sizing: border-box; /* Correct formatting */
+  }
+  
+  /* Column container */
+  .row {
+    display: flex; /* how the column is formed */
+    flex-wrap: wrap; /* how the column is formed  */
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .left {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: rgb(150, 56, 33); /* Red background color */
+    padding: 20px; /* Some padding */
+
+  }
+  
+  /* Main column */
+  .right {
+    flex: 70%; /* Set the width of the main content */
+    background-color:rgb(29, 28, 28); /* Black background color */
+    padding: 20px; /* Some padding */
+    text-align: left; /* Align text to centre */
+    color: rgb(197, 195, 195); /* White font colour */
+    
+}
+
+.c1 {
+    flex: 20%; /* Set the width of the sidebar */
+    background-color: #333; /* Dark background color */
+    padding: 20px; /* Some padding */
+
+}
+
+.c2 {
+    flex: 20%; /* Set the width of the main content */
+    background-color:#333; /* Black background color */
+    padding-top: 68px; /* Some padding */
+}
+
+.c3 {
+    flex: 60%; /* Set the width of the main content */
+    background-color:#333; /* Black background color */
+    padding-top: 68px; /* Some padding */
+
+}
+
+.c11 {
+    flex: 20%; /* Set the width of the sidebar */
+    background-color: #333; /* Dark background color */
+    
+
+}
+
+.c21 {
+    flex: 80%; /* Set the width of the main content */
+    background-color:#333; /* Black background color */
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+
+#general {
+
+    margin-bottom: -15px; /* Decrease the distance */
+    
+}
+
+.g1 {
+
+    font-size: 18px; /* Font size */
+    padding-right: 20px; /* Some padding to the right */
+    padding-left: 20px; /* Some padding to the left */
+    line-height: 1.5em; /* Distance between text line */
+}
+
+.g2 {
+
+    font-size: 18px; /* Font size */
+    
+}
+
+.head1 {
+
+    font-size: 32px; /* Font size */
+    color: rgb(255, 255, 255); /* White text */
+    background-color: #333; /* Dark background colour */
+
+}
+
+/* CSS for text */
+
+.h41 {
+    font-size: 10px;
+    margin-top: -10px;
+}
+
+.description {
+    font-size: 12px;
+    margin-top: -145px;
+    position: relative;
+}
+
+.th {
+    margin-top: -85px;
+    padding-left: 6px;
+}
+
+
+.th1 {
+    margin-top: -20px;
+    padding-left: 6px;
+}
+
+.th2 {
+    margin-top: -120px;
+    padding-left: 6px;
+    position: relative;
+}
+
+.th3 {
+    padding-left: 6px;
+    position: relative;
+}
+
+.p1 {
+
+  padding-left: 50px; /* Some padding to the right */
+  padding-right: 50px; /* Some padding to the left */
+  font-size: 10px ; /* Font size */
+  line-height: 1.5em; /* Distance between text line */
+  margin-top: -20px;
+}
+
+.p12 {
+
+    padding-left: -5px; /* Some padding to the right */
+    padding-right: 10px; /* Some padding to the left */
+    font-size: 16px ; /* Font size */
+    line-height: 1.5em; /* Distance between text line */
+    margin-top: -20px;
+}
+
+.p13 {
+
+    padding-left: 50px; /* Some padding to the right */
+    padding-right: 50px; /* Some padding to the left */
+    font-size: 14px ; /* Font size */
+    line-height: 1.5em; /* Distance between text line */
+    margin-top: 15px;
+}
+
+
+.p11 {
+
+    padding-left: 20px; /* Some padding to the right */
+    padding-right: 50px; /* Some padding to the left */
+    font-size: 10px ; /* Font size */
+    line-height: 1.5em; /* Distance between text line */
+    margin-top: -60px;
+    position: relative;
+}
+
+.p2 {
+
+    padding-left: 50px; /* Some padding to the right */
+    padding-right: 50px; /* Some padding to the left */
+    font-size: 18px ; /* Font size */
+    line-height: 1.5em; /* Distance between text line */
+    color: white; /* text colour white */
+}
+
+/* CSS codes for footer */
+.FP {
+    margin-top: -15px; /* Decrease the top margin */
+    margin-bottom: 0px; /* no bottom margin */
+}
+
+.sightmap {
+    background-color: #333; /* Dark background colour */
+    overflow: hidden; /* Hidden overflow */
+    padding-top: -5px; /* Some padding to the top */
+    padding-left: 15px; /* Some padding to the left */
+    padding-bottom: 15px; /* Some padding to the bottom */
+    color:seashell; /* White font colour */
+    display:flex; /* how the column is formed */
+    flex-wrap: wrap; /* how the column is formed  */
+    font-size: 12px;
+
+}
+
+.sightmap1 {
+    background-color: #333; /* Dark background colour */
+    overflow: hidden; /* Hidden overflow */
+    padding-top: -5px; /* Some padding to the top */
+    padding-left: 15px; /* Some padding to the left */
+    padding-bottom: 15px; /* Some padding to the bottom */
+    color:seashell; /* White font colour */
+    display:flex; /* how the column is formed */
+    flex-wrap: wrap; /* how the column is formed  */
+    position: absolute; /* Position of sightmap  */
+    bottom: -510%; /* Position of sightmap  */
+    left: 0%; /* Position of sightmap  */
+    width: 100%; /* Size of sightmap  */
+    height: 40%; /* Size of sightmap  */
+    font-size: 12px;
+
+}
+
+.sightmap2 {
+    background-color: #333; /* Dark background colour */
+    overflow: hidden; /* Hidden overflow */
+    padding-top: -5px; /* Some padding to the top */
+    padding-left: 15px; /* Some padding to the left */
+    padding-bottom: 15px; /* Some padding to the bottom */
+    color:seashell; /* White font colour */
+    display:flex; /* how the column is formed */
+    flex-wrap: wrap; /* how the column is formed  */
+    position: absolute; /* Position of sightmap  */
+    bottom: -265%; /* Position of sightmap  */
+    left: 0%; /* Position of sightmap  */
+    width: 100%; /* Size of sightmap  */
+    height: 40%; /* Size of sightmap  */
+    font-size: 12px;
+
+}
+
+/* link colours */
+a {
+    text-decoration: none;
+    color: seashell; /* White font colour */
+}
+
+
+/* CSS codes for images used */
+
+.imagemap {
+    width: 100%;  /* Size of image */
+    height: 100vh;  /* Size of image */
+}
+
+.banner {
+    width: 250px; /* Size of image */
+    height: auto; /* Size of image */
+    display: block; /* How image is shown */
+    margin-left: auto; /* Centers image */
+    margin-right: auto; /* Centers image */
+    border-right: 20px solid black; /* Black border on right side of image */
+    border-left: 20px solid black; /* Black border on left side of image */
+   
+}
+
+.img2 {
+    display: block; /* How image is shown */
+    position: absolute; /* Position of Image */
+    top: 25%; /* Position of Image */
+    left: 47%; /* Position of Image */
+    width: 900px;/* Size of image */
+}
+
+.img4 {
+    display: block; /* How image is shown */
+    position: relative; /* Position of Image */
+    top: 0%; /* Position of Image */
+    left: 30%; /* Position of Image */
+    width: 0px; /* Size of image */
+}
+
+.img3 {
+    position: absolute; /* Position of Image */
+    width: 0px; /* Size of image */
+    top: 5%; /* Position of Image */
+    left: 60%; /* Position of Image */
+}
+
+.myImage {
+    border: 0px solid rgb(240, 240, 240); /* Border around image */
+    display: none; /* How image is shown */
+    width: 0px; /* Size of image */
+}
+
+.myImage1 {
+    display: block;  /* How image is shown */
+    margin-left: 20px;  /* Centers image */
+    margin-right: 5px; /* Centers image */
+    margin-top: 30px;
+    width: 400px; /* Size of image */
+    border: 5px solid black; /* Border around image */
+
+}
+
+.pfp {
+    width: 300px; /* Size of Image */
+    display: block; /* Center image */
+    margin-left: auto; /* Center image */
+    margin-right: auto; /* Center image */
+
+}
+
+.pfp1 {
+    width: 450px;
+}
+
+.img22 {
+    width: 100%; /* size of image */
+    height: auto; /* size of image */
+}
+
+
+/* CSS codes for about me */
+.AboutMee {
+
+    flex: 70%; /* Set the width of the main content */
+    background-color:rgb(29, 28, 28); /* Dark background color */
+    padding: 20px; /* Some padding */
+    text-align: center; /* Centers image */
+    color: rgb(197, 195, 195); /* Font colour white */
+
+}
+
+/* CSS for image gallery */
+
+.gallery {
+    margin: 8px; /* Margin around images */
+    margin-left: 35px;
+    border: 1px solid #ccc; /* Border around images */
+    float:left; /* Images float to the right */
+    width: 400px; /* Size of image */
+    background-color: #ccc;/* White background color */     
+}
+
+.gallery:hover {
+    border: 1px solid rgb(150, 56, 33); /* Adds a border */
+    background-color: rgb(150, 56, 33);/* Red background color */
+}
+    
+.gallery1:hover {
+    border: 1px solid rgb(150, 56, 33); /* Adds a border */
+    background-color: rgb(150, 56, 33);/* Red background color */
+}
+    
+.gallery img {
+    width: 100%; /* Size of image */
+    height: auto; /* Size of image */  
+}
+
+.gallery1 img {
+    width: 100%; /* Size of image */
+    height: auto; /* Size of image */  
+}
+    
+.desc {
+    padding: 10px; /* some Padding */
+    text-align: center; /* Align text to center */
+}
+    
+.sctitle {
+    color: #ccc; /* Font colour white */
+    font-size: 12px; /* Font size */
+    padding-left: 90px; /* Padding to the left */
+}
+
+/* CSS for index page */
+
+.index {
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+    box-sizing: border-box; /* Width and Height properties */
+    background-color: white;/* White background color */
+}
+
+.slider{
+    position: absolute; /* Position of Image */
+    top: 0; /* Position of Image */
+    left: 0; /* Position of Image */
+    width: 100%; /* Size of image */
+    height: 100vh; /* Size of image */
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(66, 66, 66)); /* Background colour */
+    z-index: -1; /* Position of Item relative to Z axis */
+
+}
+
+.nav1 {
+    display: grid; /* Display format grid */
+    grid-template-columns: 10% 1fr 1fr 10%; /* Grid template */
+    min-height: 10vh; /* Size of image */
+    color: white; /* Font colour white */
+    align-items: center;/* Center items */
+}
+
+
+.section1{
+    display: flex; 
+    height: 60vh; /* Size of image */
+    justify-content: center;/* Center items */
+    align-items: center; /* Center items */
+}
+
+
+.hero{
+    height: 60%; /* Size of image */
+    width: 100%; /* Size of image */
+    position: relative; /* Position of image */
+}
+
+.hero img{
+    width: 100%; /* Size of image */
+    height: 100%; /* Size of image */
+    object-fit: cover; /* Object covers items */
+}
+
+.headline{
+    position: absolute; /* Position of Text */
+    top: 75%; /* Position of Text */
+    left: 12%; /* Position of Text */
+    font-size: 80px; /* Font size */
+    transform: translate(-20%, -70%); /* Transform item */
+    color: white; /* Font colour white */
+    z-index: 3; /* Position of Item relative to Z axis */
+}
+
+.nav-open{
+    position: absolute; /* Position of Image */
+    top: 0px; /* Position of Image */
+    left: 0px; /* Position of Image */
+    width: 100%; /* Size of image */
+    height: 30vh; /* Size of image */
+    background: rgb(150, 56, 33); /* Red background color */
+    z-index: 1; /* Position of Item relative to Z axis */
+    color: white; /* Font colour white */
+    display: grid;  /* Display format grid */
+    grid-template-columns: 5% 1fr 1fr 5%; /* Grid template */
+    align-items: center; /* Center items */
+    justify-items: center; /* Center items */
+    transform: translateY(-100%); /* Translate item */
+
+}
+
+.episodes{
+    grid-column: 2/3; /* Position relative to grid */
+}
+
+.htext{
+    font-size: 28px; /* Font size */
+    padding-bottom: 40px; /* Padding to bottom */
+}
+
+.menu {
+    cursor: pointer; /* Pointed cursor */
+    justify-self:center; /* Center items */
+    z-index: 4; /* Position of Item relative to Z axis */
+}
+
+.pp {
+    padding-left: 50px;  /* Padding to left */
+    color: white; /* Font colour white */
+}
+
+.s2{
+    background-color: rgb(150, 56, 33); /* Red background color */
+}
+
+.s2 h1 {
+    font-size: 64px;
+    position: absolute; /* Position of Image */
+    top: 20%; /* Position of Text */
+    right: 10%; /* Position of Text */
+    color: white; /* Font colour white */
+
+}
+
+.s2 p {
+    position: absolute; /* Position of Image */
+    right: 10%; /* Position of Text */
+    top: 36%; /* Position of Text */
+    text-align: right; /* Align text to right */
+    color: white; /* Font colour white */
+    size: 16px; /* Font size */
+    line-height: 20px; /* Spacing between text */
+
+}
+
+.s3 h1 {
+    font-size: 64px;
+    position: absolute; /* Position of Text */
+    top: 7%; /* Position of Text */
+    left: 10%; /* Position of Text */
+    color: white; /* Font colour white */
+    z-index: 1; /* Position of Item relative to Z axis */
+
+}
+
+.s3 p {
+    position: absolute; /* Position of Text */
+    left: 1%; /* Position of Text */
+    top: 22%; /* Position of Text */
+    text-align: left; /* Align text to left */
+    color: white; /* Font colour white */
+    size: 10px; /* Font size */
+    line-height: 20px; /* Spacing between text */
+    z-index: 1; /* Position of Item relative to Z axis */
+
+}
+
+.s4 {
+    background-color: white; /* White background color */
+}
+
+.s4 h1 {
+    font-size: 64px; /* Font size */
+    position: absolute; /* Position of Text */
+    top: 20%; /* Position of Text */
+    left: 10%; /* Position of Text */
+    color: black; /* Font colour black */
+    z-index: 1; /* Position of Item relative to Z axis */
+
+}
+
+.s4 p { 
+    position: absolute; /* Position of Image */
+    left: 5%; /* Position of Image */
+    top: 35%; /* Position of Image */
+    text-align: left; /* Align text to left */
+    color: black; /* Font colour black */
+    size: 16px; /* Font size */
+    line-height: 20px; /* Spacing between text */
+    z-index: 1; /* Position of Item relative to Z axis */
+
+}
+
+.s4 footer {
+    position: absolute; /* Position of Image */
+    top: 33%; /* Position of Image */
+}
+
+/* CSS for character profiles */
+
+.FF {
+    margin-top: -10px; /* Decrease the top margin */
+    
+}
+
+.txt1 {
+    background-color:rgb(29, 28, 28); /* Black background color */
+    padding: 50px; /* Some padding */
+    margin-left: 20px; /* set the margins */
+    margin-right: 20px; /* set the margins */
+    text-align: center; /* Align text to centre */
+    color: rgb(197, 195, 195); /* White font colour */
+    font-size: 20px; /* font size */
+    line-height: 20px; /* Spacing between text */
+} 
+
+
+/* CSS for social media buttons */
+
+.social {
+    align-items: center;
+    height: 30px; /* size of image */
+    width: 30px; /* size of image */
+    margin-top: 10px; /* set the margins */
+    margin-left: 2px; /* set the margins */
+    margin-right: 2px; /* set the margins */
+}
+
+.socialpost {
+    margin-left: 0px;
+}
+
+/* CSS for game cards */
+  
+.flip-card {
+    background-color: transparent; /* no background colour */
+    width: 350px; /* size of card */
+    height: 350px; /* size of card */
+    perspective: 1000px; /* creates a 3d look */
+}
+  
+.flip-card-inner {
+    position: relative; /* position of card */
+    width: 100%; /* size of card */
+    height: 100%; /* size of card */
+    text-align: center; /* puts text in center */
+    transition: transform 0.6s; /* time it takes to flip */
+    transform-style: preserve-3d; /* keeps the 3d element when you flip */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* shadow of card */
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); /* flips the card when you hover */
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%; /* size of card */
+    height: 100%; /* size of card */
+    -webkit-backface-visibility: hidden; /* the backside of the card is not seen */
+    backface-visibility: hidden; /* the backside of the card is not seen */
+}
+  
+.flip-card-front {
+    background-color: #bbb; /* light background colour */
+    color: black; /* black text */
+}
+  
+.flip-card-back {
+    background-color: rgb(150, 56, 33); /* red background colour of card */
+    color: white; /* white text */
+    transform: rotateY(180deg); /* flips the card to the front */
+}
+
+.game {
+    float:left; /* position of the cards */
+    margin: 10px; /* set the margins */
+    margin-left: 65px;
+}
+
+.game1 {
+    float:left; /* position of the cards */
+    margin: 10px; /* set the margins */
+    margin-left: 65px; /* set the margins */
+}
+
+.gamephoto {
+    width: 90%; /* size of image */
+    height: auto; /* size of image */
+    padding-left: 50px; /* some padding */
+}
+
+.gamephoto1 { 
+    width: 100%; /* size of image */
+    height: auto; /* size of image */
+    margin-left: auto; /* set the margins */
+    margin-left: auto; /* set the margins */
+}
+
+.card {
+    width: 350px; /* size of card */
+    height: 350px; /* size of card */
+}
+
+.bgg {
+    background-color: rgb(29, 28, 28); /* dark background colour */
+}
+
+.introg { 
+    color: white; /* white text */
+    text-align: center; /* centered text */
+
+}
+
+.introg1 { 
+    color: white; /* white text */
+    text-align: center; /* centered text */
+    margin-top: 760px;
+    margin-top: 760px;
+}
+
+* {box-sizing:border-box} /* values of the box */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px; /* size of container */
+  position: relative; /* position of container */
+  margin: auto; /* set the margins */
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none; /* hides the display */
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer; /* type of cursor */
+    position: absolute; /* positioning */
+    top: 50%; /* positioning */
+    right: 90%; /* positioning */
+    width: auto; /* size of button */
+    margin-top: -22px; /* set the margins */
+    padding: 16px; /* some padding */
+    color: white; /* white text */
+    font-weight: bold; /* bold font */
+    font-size: 18px; /* font size */
+    transition: 0.6s ease; /* speed of transition */
+    border-radius: 0 3px 3px 0; /* border size */
+    user-select: none; /* depends on the user */
+  }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0; /* positioning */
+  border-radius: 3px 0 0 3px; /* size of border */
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8); /* dark background colour when hovering */
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2; /* white text */
+  font-size: 15px; /* font size */
+  padding: 8px 12px; /* padding */
+  position: absolute; /* position of text */
+  bottom: 8px; /* position of text */
+  width: 100%; /* length of text */
+  text-align: center; /* centered text */
+}
+
+
+/* The dots */
+.dot {
+  cursor: pointer; /* the cursor is shown as a pointer */
+  height: 15px; /* size of dot */
+  width: 15px; /* size of dot */
+  margin: 0 2px; /* set the margins */
+  background-color: #bbb; /* light background colour */
+  border-radius: 50%; /* border size */
+  display: inline-block; /* display of dot */
+  transition: background-color 0.6s ease; /* time to change the colour */
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade; /* type of transition */
+  -webkit-animation-duration: 1.5s; /* speed of transition */
+  animation-name: fade; /* name of transition */
+  animation-duration: 1.5s; /* speed of transition */
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} /* creates the fade */
+  to {opacity: 1} /* start from 0.4 opacity and fade to 1 */
+}
+
+@keyframes fade {
+  from {opacity: .4} /* creates the fade */
+  to {opacity: 1} /* start from 0.4 opacity and fade to 1 */
+}
+  
+/* Clear floats after the columns */
+.row1:after {
+    content:""; /* replaces element with "" */
+    display: table; /* displays element as a table */
+    clear: both; /* removes float */
+}
+  
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container1 {
+    position:relative; /* position of the container */
+    display:none; /* does not take up any space */
+}
+  
+/* Expanding image text */
+#imgtext {
+    position: absolute; /* positioning */
+    bottom: 15px; /* positioning */
+    left: 15px; /* positioning */
+    color: white; /* white text */
+    font-size: 20px; /* font size */
+}
+  
+/* Closable button inside the image */
+.closebtn {
+    position: absolute; /* positioning */
+    top: 10px; /* positioning */
+    right: 15px; /* positioning */
+    color: white; /* white text */
+    font-size: 0px; /* size of text */
+    cursor: pointer; /* type of cursor */
+}
